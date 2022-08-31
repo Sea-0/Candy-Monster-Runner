@@ -48,7 +48,6 @@ reiniciar.visible = false;
   player = createSprite(50,500,50,50)
   player.addImage("right",playerImg2)
   player.scale=0.4
-  player.debug=true
   player.setCollider("rectangle",0,0,300,500)
 
 
@@ -134,7 +133,6 @@ function gerarObstaculos() {
       case 1: obstaculo.addImage(stoneWallImg);
       obstaculo.scale=0.3
       obstaculo.y=525
-      obstaculo.debug=true
       obstaculo.setCollider("rectangle",0,0,1000,400)
               break;
       case 2: obstaculo.addImage(stoneWallVerticalImg);
